@@ -10,7 +10,7 @@ if [ "$EUID" -ne 0 ]
 fi
 
 # now we update the repo lists and suppress output
-apt-get update > /dev/null
+apt update > /dev/null
 
 # than we install all those nice things 
 apt --assume-yes install vim htop aptitude curl net-tools iotop tmux  
