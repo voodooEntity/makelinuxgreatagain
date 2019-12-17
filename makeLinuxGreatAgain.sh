@@ -13,10 +13,10 @@ fi
 apt update > /dev/null
 
 # than we install all those nice things 
-apt --assume-yes install vim htop aptitude curl net-tools iotop tmux  
+apt --assume-yes install vim htop aptitude curl net-tools iotop tmux zip unzip
 
 # now we list other packages that may be interresting
-echo -e "- - - - - - - - - - - - - - - - - - - - - -"
+echo -e "\n\n- - - - - - - - - - - - - - - - - - - - - -"
 echo -e "The following packages are not installed \nbut may be interresting for you:"
 echo -e "- iptables-persistent"
-echo -e "\n\nThis script was brought to you by Maze & voodooEntity\n\nso long and thanks for all the fish\n"
+echo -e "\n\nThis script was brought to you by Maze & voodooEntity\nso long and thanks for all the fish\n"
